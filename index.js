@@ -19,7 +19,7 @@ const transporter = nodemailer.createTransport({
     user: `${process.env.GMAIL_MAIL}`,
     pass: `${process.env.GMAIL_SMTP_PASSWORD}`
   }
-});
+}); 
 
 (async () => {
   try {
