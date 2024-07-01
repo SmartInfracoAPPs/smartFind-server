@@ -9,7 +9,7 @@ const whitelist = [
   'https://www.google.com',
   'https://maps.googleapis.com/maps/api/mapsjs',
   'file://*',
-  'https://*',
+  // 'https://*',
 ];
 
 export default whitelist;
